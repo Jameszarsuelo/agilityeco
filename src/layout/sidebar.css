@@ -1,0 +1,10 @@
+.active {
+    color: rgb(38 50 56 / var(--tw-text-opacity));
+    background-color: rgb(236 239 241 / var(--tw-bg-opacity));
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    border-radius: 0.5rem;
+}
